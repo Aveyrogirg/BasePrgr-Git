@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<script>
+	let a = +prompt('Введите первое число');
+	let b = +prompt('Введите второе число');
+
+	let max;
+	let min;
+
+	if (a>b) {
+		max = a;
+		min = b;
+	} else if (a==b) {
+		alert('Числа равны!')
+	} else {
+		max = b;
+		min = a;
+	}
+
+	alert(max + ' больше ' + min);
+
+</script>
